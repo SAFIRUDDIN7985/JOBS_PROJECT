@@ -1,0 +1,16 @@
+server:
+  port: 8001
+  
+spring:
+  application:
+    name: ManagerMuse
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/addfovouritejobs?createDatabaseIfNotExist=true
+    username: root
+    password: India@123
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
